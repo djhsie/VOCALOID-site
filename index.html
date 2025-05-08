@@ -11,6 +11,25 @@
            font-size: 45px;
            text-align: center;
            color:black;
+           border-bottom:1px solid gray;
+           margin:0;
+           padding-bottom: 10px;
+        }
+        #grid ul {
+            border-right:1px solid gray;
+            width:100px;
+            margin:0;
+            padding:20px;
+            padding-right:10px;
+            margin-left:10px;
+            
+        }
+        body{
+            margin:0;
+        }
+        #grid{
+            display:grid;
+            grid-template-columns: 150px 1fr;
         }
     </style>
     <title>보컬로이드에 대해서</title>
@@ -18,16 +37,20 @@
 
 </head>
 <body>
-    
     <h1>보컬로이드란</h1>
-    <p><strong>VOCALOID(보컬로이드)</strong>는 일본의 기업 야마하에서 개발한 음성 합성 엔진이다.
-
-        좁은 의미에서의 보컬로이드는 음성 합성 엔진 프로그램 VOCALOID만을 의미하지만, 넓은 의미에서의 보컬로이드는 보컬로이드 가수(음성 합성 엔진 라이브러리) 및 이미지 캐릭터가 사용되는 문화 전반을 아우르는 용어로 사용된다.</p>
-    <h2>보컬로이드의 종류</h2>
+<div id="grid">
+    
     <ul>
         <li><a href="하츠네미쿠.html" style="color: rgb(28, 207, 207);">하츠네미쿠</a></li>
         <li><a href="카사네테토.html" style="color:rgb(202, 41, 41);">카사네테토</a></li>
         <li><a href="즌다몬.html" style="color:rgb(58, 196, 58);">즌다몬</a></li>
     </ul>
+    <div>
+    <h2>보카로</h2>
+    <p><strong>VOCALOID(보컬로이드)</strong>는 일본의 기업 야마하에서 개발한 음성 합성 엔진이다.
+
+        좁은 의미에서의 보컬로이드는 음성 합성 엔진 프로그램 VOCALOID만을 의미하지만, 넓은 의미에서의 보컬로이드는 보컬로이드 가수(음성 합성 엔진 라이브러리) 및 이미지 캐릭터가 사용되는 문화 전반을 아우르는 용어로 사용된다.</p>
+    </div>
+</div>
 </body>
 </html>
